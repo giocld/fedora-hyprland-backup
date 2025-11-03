@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/23301484/README.md)
-# # fedora-hyprland-backup
+# Fedora-Hyprland-backup
 
 Automated backup and restore scripts for Fedora Linux with Hyprland:
 includes package lists and Hyprland configuration files.
