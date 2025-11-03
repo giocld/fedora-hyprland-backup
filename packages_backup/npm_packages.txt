@@ -1,0 +1,25 @@
+/usr/local/lib
+└─┬ alacritty-themes@6.0.2
+  ├── @iarna/toml@2.2.5
+  ├─┬ prompts@2.4.2
+  │ ├── kleur@3.0.3
+  │ └── sisteransi@1.0.5
+  ├─┬ temp@0.9.4
+  │ ├─┬ mkdirp@0.5.6
+  │ │ └── minimist@1.2.8
+  │ └─┬ rimraf@2.6.3
+  │   └─┬ glob@7.2.3
+  │     ├── fs.realpath@1.0.0
+  │     ├─┬ inflight@1.0.6
+  │     │ ├── once@1.4.0 deduped
+  │     │ └── wrappy@1.0.2
+  │     ├── inherits@2.0.4
+  │     ├─┬ minimatch@3.1.2
+  │     │ └─┬ brace-expansion@1.1.12
+  │     │   ├── balanced-match@1.0.2
+  │     │   └── concat-map@0.0.1
+  │     ├─┬ once@1.4.0
+  │     │ └── wrappy@1.0.2 deduped
+  │     └── path-is-absolute@1.0.1
+  └── yaml@1.10.2
+

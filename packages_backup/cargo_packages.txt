@@ -1,0 +1,4 @@
+atuin v18.8.0:
+    atuin
+spotify_player v0.21.1:
+    spotify_player

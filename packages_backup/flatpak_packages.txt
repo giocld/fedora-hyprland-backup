@@ -1,0 +1,7 @@
+com.discordapp.Discord	stable
+com.obsproject.Studio	stable
+com.spotify.Client	stable
+com.valvesoftware.Steam	stable
+com.visualstudio.code	stable
+org.eclipse.Java	stable
+org.gnome.Extensions	stable
