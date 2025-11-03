@@ -14,20 +14,21 @@ includes package lists and Hyprland configuration files.
 - Clean project structure for versioning and sharing your setup
 
 ---
+**Project Structure:**
 
-## Project Structure
+- `backup_project/`
+  - `packages_backup/`
+    - `dnf_packages.txt`
+    - `pip_packages.txt`
+    - _...other package manager lists..._
+  - `hyprland_repo/`
+    - _Hyprland config files and subfolders_
+  - `install_packages.sh`
+  - `install_hyprland_settings.sh`
+  - `hyprland_backup/`
+    - _created locally during restore, not versioned_
 
-backup_project/
-├── packages_backup/
-│   ├── dnf_packages.txt
-│   ├── pip_packages.txt
-│   └── ...                 # other package manager lists
-├── hyprland_repo/
-│   └── (Hyprland config files and subfolders)
-├── install_packages.sh
-├── install_hyprland_settings.sh
-└── hyprland_backup/
-    └── (created locally during backup/restore, not versioned)
+
 
 ---
 
