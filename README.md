@@ -15,8 +15,9 @@ includes package lists and Hyprland configuration files.
 
 ---
 **Project Structure:**
-
 - `backup_project/`
+  - `backup_packs.sh`
+  - `backup_hyprland.sh`
   - `packages_backup/`
     - `dnf_packages.txt`
     - `pip_packages.txt`
