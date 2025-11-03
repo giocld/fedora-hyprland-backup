@@ -18,11 +18,16 @@ includes package lists and Hyprland configuration files.
 ## Project Structure
 
 backup_project/
-├── packages_backup/ # Package lists for dnf, flatpak, pip, etc.
-├── hyprland_repo/ # Hyprland config files (to deploy)
-├── install_packages.sh # Script to install all packages from txt lists
-├── install_hyprland_settings.sh # Script to backup and sync Hyprland config
-└── hyprland_backup/ # (Created locally during restore, not versioned)
+├── packages_backup/
+│   ├── dnf_packages.txt
+│   ├── pip_packages.txt
+│   └── ...                 # other package manager lists
+├── hyprland_repo/
+│   └── (Hyprland config files and subfolders)
+├── install_packages.sh
+├── install_hyprland_settings.sh
+└── hyprland_backup/
+    └── (created locally during backup/restore, not versioned)
 
 ---
 
